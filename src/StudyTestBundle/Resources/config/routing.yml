@@ -1,0 +1,6 @@
+study_test_homepage:
+    path:     /
+    defaults: { _controller: StudyTestBundle:Default:index }
+study_test_hello:
+    path:     /hello/{name}
+    defaults: { _controller: StudyTestBundle:Hello:index }
