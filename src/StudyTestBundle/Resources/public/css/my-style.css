@@ -1,4 +1,12 @@
-#my-h1 {
+.wrapper {
   text-align: center;
+}
+
+.wrapper__title {
   color: #f00;
+}
+
+.wrapper__txt {
+  font-family: Arial, sans-serif;
+  /*font-size: 18px;*/
 }

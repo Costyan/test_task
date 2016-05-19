@@ -1,1 +1,12 @@
-Hello World!
+{% extends 'base.html.twig' %}
+
+{% block stylesheets %}
+    <link href="{{ asset('bundles/studytest/css/my-style.css') }}" type="text/css" rel="stylesheet" />
+{% endblock %}
+
+{% block body %}
+  <div class="wrapper">
+    <h1 class="wrapper__title">Welcome!</h1>
+    <p class="wrapper__txt">This is homepage of my bundle "StudyTestBundle"</p>
+  </div>
+{% endblock %}
